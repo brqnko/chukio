@@ -32,6 +32,7 @@ case "$command" in
     test)
         shift
         cd "$root"
+        export RUST_BACKTRACE=1
         # Append --nocapture after an existing separator, or add the separator ourselves.
         for arg in "$@"; do
             if [ "$arg" = "--" ]; then
