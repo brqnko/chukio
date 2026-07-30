@@ -15,3 +15,19 @@ Try to understand the Rust mechanics well, not to pass everything to LLM.
 - compile and pass tests for all crates
 
 - jit
+
+## References
+
+### MIR
+
+- https://rust-lang.github.io/rfcs/1211-mir.html
+
+- https://rustc-dev-guide.rust-lang.org/mir/index.html
+
+- https://github.com/rust-lang/rustc_codegen_cranelift
+
+### Interpreter
+
+- https://craftinginterpreters.com
+
+
